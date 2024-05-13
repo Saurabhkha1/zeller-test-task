@@ -1,0 +1,8 @@
+query {
+  listZellerCustomers {
+    nextToken
+    items {
+      ...ZellerCustomerFragment
+    }
+  }
+}

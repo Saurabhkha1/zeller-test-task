@@ -1,0 +1,6 @@
+fragment ZellerCustomerFragment on ZellerCustomer {
+  id
+  name
+  email
+  role
+}
